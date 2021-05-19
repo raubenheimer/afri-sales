@@ -1,1 +1,1 @@
-web: gunicorn django_afrisales_project:app
+web: gunicorn django_afrisales_project:database

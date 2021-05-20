@@ -1,1 +1,1 @@
-web: gunicorn django_afrisales_project:application
+web: gunicorn --pythonpath django_afrisales_project django_afrisales_project.wsgi 

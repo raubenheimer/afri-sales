@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-*jg(88r-i_!t$-5$y4&c80++%daq&tn+!!!0fx8tj9-!z+hv*e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'afri-sales.herokuapp.com'
+    '127.0.0.1'
     ]
 
 # Database

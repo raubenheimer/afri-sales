@@ -1,5 +1,6 @@
 from django_afrisales_project.settings.common import *
 import django_heroku
+import os
 
 
 # SECURITY WARNING: keep the secret key used in production secret!

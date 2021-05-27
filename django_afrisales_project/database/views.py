@@ -19,3 +19,6 @@ def sales_list(request):
     sales = Sales.objects.all() 
     serializer = SalesSerializer(sales, many=True) 
     return Response(serializer.data) 
+
+def index(request):
+    return HttpResponse('JACOB ZUMA SE MA SE POES!')
